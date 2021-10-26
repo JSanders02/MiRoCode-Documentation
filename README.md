@@ -275,8 +275,7 @@ Used for periodic control loop: `while robot.ready():`
 Recieves data from MiRo&#39;s sensors, and updates attributes. Also sets sensors_updated flag to True.
 
 #### set_time_limit(self, dur)
-##### set_time_limit
-For use with [wait_for_time_limit(self)](#wait_for_time_limit)
+For use with [wait_for_time_limit(self)](#wait_for_time_limitself)
 Sets the time (in seconds, `dur`) that you want MiRo to wait for.
 
 #### sleep(self, dur)
@@ -316,6 +315,5 @@ Controls the speed of MiRo&#39;s tail.
 `hz` - How many times per second MiRo&#39;s tail will wag.
 
 #### wait_for_time_limit(self)
-##### wait_for_time_limit
-For use with [set_time_limit(self, dur)](#set_time_limit)
+For use with [set_time_limit(self, dur)](#set_time_limitself-dur)
 Returns a boolean depending on whether or not the time limit set in `set_time_limit` has been exceeded yet (True if not exceeded, False if exceeded).
