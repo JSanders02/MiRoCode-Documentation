@@ -204,7 +204,7 @@ Returns average colour at specified centre square of a camera.
 #### find_mirocube(self, cam=None, prop=None)
 Searches for a mirocube through the specified camera (if camera is left as None, searches through all of them).
 `prop` - again, what you want to be returned. The only new one is MirocodeInterface.vision.id , which would make the method return the ID of the Mirocube that has been detected - all others are the same as the ones from `find_ball`.
-Again, if `prop` is left as None, then the method will return all details about the ball, in a tuple/list (one of the two)
+Again, if `prop` is left as None, then the method will return all details about the cube, in a tuple/list (one of the two)
 
 #### find_shape(self, rgb, verts, cam=None, prop=None, colour_range=30, min_size=200)
 Finds a shape of the specified rgb colour through the specified camera (if camera is left as None, searches through all of them).
