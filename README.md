@@ -6,10 +6,10 @@ At the start of any code, put the line `import miro2 as miro`
 
 ##Contents
 
-- [MiroCode Constants](#MiroCode+Constants)
-- [MirocodeInterface Class](#MirocodeInterface+Class)
+- [MiroCode Constants](#MiroCode%20Constants)
+- [MirocodeInterface Class](#MirocodeInterface%20Class)
   - [Instantiation](#Instantiation)
-  - [Attributes](#Attributes+-+Most+of+these+should+probably+not+be+changed)
+  - [Attributes](#Attributes%20-%20Most%20of%20these%20should%20probably%20not%20be%20changed)
   - [Methods](#Methods)
 
 #MiroCode Constants
