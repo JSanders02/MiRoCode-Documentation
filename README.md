@@ -3,12 +3,14 @@ Documentation for writing Mirocode in python, using the miro2 library.
 
 # Documentation for the MiRoCODE website
 At the start of any code, put the line `import miro2 as miro`
+
 ##Contents
-- [MiroCode Constants](#MiroCode Constants)
-- [MirocodeInterface Class](#MirocodeInterface Class)
--[Instantiation](#Instantiation)
--[Attributes](#Attributes - Most of these should probably not be changed)
--[Methods](#Methods)
+
+- [MiroCode Constants](#MiroCode+Constants)
+- [MirocodeInterface Class](#MirocodeInterface+Class)
+  - [Instantiation](#Instantiation)
+  - [Attributes](#Attributes+-+Most+of+these+should+probably+not+be+changed)
+  - [Methods](#Methods)
 
 #MiroCode Constants
 Removed the ones that aren&#39;t of use, but the full file can be found [here](http://labs.consequentialrobotics.com/miro-e/docs/viewfile.php?file=media/constants.py "here").
