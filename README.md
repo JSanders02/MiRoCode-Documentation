@@ -1,5 +1,6 @@
 # MiRoCode-Documentation
 Documentation for writing Mirocode in python, using the miro2 library.
+Written by Jack Sanders
 
 # Documentation for the MiRoCODE website
 At the start of any code, put the line `import miro2 as miro`
