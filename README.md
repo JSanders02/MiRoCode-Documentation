@@ -284,6 +284,7 @@ Wait for length of time specified as `dur` (in seconds) before doing anything el
 
 #### speed(self, m_sec)
 Sets MiRo&#39;s speed to a value in m/s (`m_sec`). Use positive values for forwards motion, and negative values for backwards.
+Only use values between -0.4 and +0.4 inclusive (Cheers Jack Burke)
 
 #### target_mdk_release(self)
 
