@@ -243,7 +243,7 @@ Plays a tone throught MiRo&#39;s speakers.
 `vol` - Volume to play the tone at.
 
 #### read_body_acceleration(self)
-Returns a list of three values - presumable the acceleration forces experienced by the IMU. I think the order is [Forwards, sideways, vertical], but I could be wrong
+Returns a list of the linear acceleration forces being experienced by MiRo&#39;s body IMUs in the form [x, y, z]
 
 #### read_body_touch_sensor_list(self)
 Returns a list of booleans, one for each body touch sensor. True means that a touch is currently being detected by the touch sensor represented by that position in the list, and False means that it has not.
