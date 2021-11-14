@@ -44,6 +44,9 @@ Constants that refer to MiRo&#39;s light sensors. LF - Left Front, RF - Right Fr
 ####  LIFT_RAD_MIN, LIFT_RAD_MAX
 Minimum and maximum lift values (in radians). Minimum is 8deg, maximum is 60deg.
 
+#### LIFT_RAD_CALIB
+Default value for lift (34deg)
+
 ####  MIC_L, MIC_R, MIC_C, MIC_T
 Referring to the sound sensors. Not sure what the ones labelled C and T refer to though.
 
